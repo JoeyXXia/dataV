@@ -1,11 +1,9 @@
 <template>
   <div class="wrapper">
-    <HelloWorld msg="You did it!" />
+    <router-view></router-view>
   </div>
 </template>
 
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
+<script setup></script>
 
 <style scoped></style>
