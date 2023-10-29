@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HelloWorld from "@/components/HelloWorld";
+import Canvas from "@/views/Canvas.vue";
+import DataView from "@/views/DataView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +8,12 @@ const router = createRouter({
     {
       path: "/",
       name: "dataV",
-      component: HelloWorld,
+      component: DataView,
+    },
+    {
+      path: "/canvas",
+      name: "canvas",
+      component: Canvas,
     },
   ],
 });
