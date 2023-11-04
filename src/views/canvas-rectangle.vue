@@ -1,8 +1,8 @@
 <template>
   <div class="retangle">
     <canvas
-      height="600"
-      width="600"
+      height="300"
+      width="300"
       ref="retangle"
       class="canvas-rectangle"
     ></canvas>
