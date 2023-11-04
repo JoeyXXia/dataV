@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Canvas from "@/views/Canvas.vue";
+import CanvasRectangle from "@/views/canvas-rectangle.vue";
 import DataView from "@/views/DataView.vue";
 
 const router = createRouter({
@@ -11,10 +11,15 @@ const router = createRouter({
       component: DataView,
     },
     {
-      path: "/canvas",
+      path: "/rectangle",
       name: "canvas",
-      component: Canvas,
+      component: CanvasRectangle,
     },
+    // {
+    //   path: "/line",
+    //   name: "canvas",
+    //   component: CanvasRectangle,
+    // },
   ],
 });
 
